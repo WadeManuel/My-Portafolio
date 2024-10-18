@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio personal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./static/boxicons/css/boxicons.css">
+</head>
+<body>
+    
+   <header class="header">
+        <a href="" class="logo"><span>Es</span>manuel.</a>
+        <nav class="navbar">
+            <div class="navlinks">
+                <a href="#home" >Home</a>
+                <a href="#about" >About</a>
+                <a href="#services" >Services</a>
+                <a href="#porfolio" >Portfolio</a>
+                <a href="#contact" >Contact</a>
+            </div>
+            <div class="togglebtn">
+                <i class="bx bx-menu" id="menu-icon"></i>
+            </div>
+        </nav>
+   </header>
+
+   <section class="home" id="home">
+
+        <div class="container-home">
+            <div class="content-informacion">
+                <h3>Backend,Fronted Development</h3>
+                <h1>Hi,I'am <span>Esmanuel Pileta Alayo</span></h1>
+                <h4>I live From Cuba</h4>
+            </div>
+            <div class="content-img">
+                <img src="./static/img/Esmanuel (2).jpg" alt="">
+            </div>
+        </div>
+
+   </section>
+
+
+   <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./static/img/Esmanuel (2).jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p>
+                        Hello , I am a cumputer engineering student , with great motivation and
+                        desire to grow ,I am  a studios and dynmic person ,code writing , design .I 
+                        really like waht I do and I am alawys willing to learn something new .
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            <li><span>Programming languages</span><br>Python,Java,Java Script,Html,Css</li>
+                            <li><span>Databases</span><br>Mysql,Sql</li>
+                            <li><span>Technologies and Tools</span><br>Django,SpringBoot,WordPrees,Visual Paradigm,VSCode
+                            ,Office,IntelijilDEA,NetBeans,PDI</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>Creación de Almacén de datos aplicado a las  ventas en mercados agropecuarios de Santiago de Cuba, permitiendo a los analistas identificar los productos más populares en cada mercado 
+                                y tomar decisiones informadas sobre estrategias de comercialización y gestión de inventario . 
+                            </li>
+                            <li><span>2024</span><br>Creación de un sistema informático para gestionar ventas de automóviles de una Compañia de autos. 
+                            </li>
+                            <li><span>2023</span><br>Ui/Ux Desing para la aplicación polaris.</li>
+                            <li><span>2023</span><br>Creación de Página Web - </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Cumputer Engineering 
+                                Eastern University , Santiago de Cuba,Cuba</li>
+                            <li><span>2016-2019</span><br>Bachelor Technician Mario Maceo Quesada Pre-University , Santiago de Cuba , Cuba.
+                            </li>
+                            <li><span>2013-2016</span><br>I studied at the Fransisco Maceo Osorio secondary school in Santiago de Cuba, Cuba</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <!---section servicios-->
+
+   <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-list">
+
+            <div>
+                <i class='bx bx-code-alt'></i>
+                <h3>UI/UX Desing</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Necessitatibus consequuntur nesciunt nam? Consequuntur
+                      debitis doloremque optio labore iusto id quas.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+
+            <div>
+                <i class='bx bx-crop' ></i>
+                <h3>Web Desing</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Necessitatibus consequuntur nesciunt nam? Consequuntur
+                      debitis doloremque optio labore iusto id quas.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+
+            <div>
+                <i class='bx bxl-adobe'></i>
+                <h3>Web App</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Necessitatibus consequuntur nesciunt nam? Consequuntur
+                      debitis doloremque optio labore iusto id quas.
+                </p>
+                <a href="">Learn more</a>
+            </div>
+
+        </div>
+
+   </section>
+
+
+   <!-----------------Portafolio-------------------------> 
+   <section class="portafolio" id="porfolio">
+    <h2 class="heading">
+        My  <span>Work</span> </h2>
+    <div class="portafolio-content">
+        <div class="portafolio-box">
+          <img src="./static/img/work/work-1.jpg" w  alt="img-bitcoin">
+            <div class="portafolio-layer">
+                <h4>Investing in Cryptocurrency IS it Worth the Risk ?</h4>
+                <p>Mi primer proyecto en la escuela fue realizar un sistema informático para 
+                    gestionar las ventas automoviles de una compañia de autos .
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+     <div class="portafolio-box">
+     <img src="./static/img/work/work-2.jpg" alt="">
+       <div class="portafolio-layer">
+           <h4>Five Industries Besides Cripto Blochain Could Transform</h4>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+               Dolore ex animi enim vero amet aspernatur adipisci dicta nulla nihil,
+               sit qui.
+           </p>
+           <a href="../2/index.html"><i class='bx bx-link-external'></i></box-icon></a>
+       </div>
+    </div>
+       <div class="portafolio-box">
+         <img src="./static/img/work/work-3.jpg "     alt="Imagen-Mining">
+               <div class="portafolio-layer">
+                   <h4>The Rise of Cryptocurrency Mining In Education</h4>
+                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                       Dolore ex animi enim vero amet aspernatur adipisci dicta nulla nihil,
+                       sit qui.
+                   </p>
+                 <a href=""><i class='bx bx-link-external'></i></box-icon></a>
+              </div>
+            </div>      
+       <div class="portafolio-box">
+         <img src="./static/img/work/work-Sistema-informático.jpg"    alt="">
+                  <div class="portafolio-layer">
+                    <h4>Sistema Inforático para gestionar ventas de automóviles .</h4>                        
+                    <p>Creación de un sistema informatico hecho con Framework Django para gestionar ventas de automoviles
+                        posee seguridad hay que estar logiado para poder acceder al sistema .
+                    </p>
+                <a href="https://github.com/WadeManuel/computer-system-to-manage-car-sales.git"><i class='bx bx-link-external'></i></a>
+                 </div>
+      </div>
+
+    <div class="portafolio-box">
+      <img src="./static/img/work/work-5.jpg "   alt="">
+        <div class="portafolio-layer">
+            <h4>7 consejos para elegir la plataforma ideal de inversión de tus criptoactivos</h4>
+            <p>
+                En un mundo cada vez más digitalizado, los inversores requieren alternativas para diversificarse.
+                 Los criptoactivos ofrecen el escenario ideal para lograrlo, pero es esencial elegir una buena
+            </p>
+            <a href=""><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>    
+
+    <div class="portafolio-box">
+        <img src="./static/img/work/work-6.jpg"   alt="">
+        <div class="portafolio-layer">
+                <h4>Ventajas de usar criptomonedas en 2024</h4>
+                    <p>
+                        La principal ventaja de las criptomonedas, es la posibilidad de 
+                        realizar transacciones e intercambios de divisas a menor costo y más rápido en comparación con las
+                    </p>
+                 <a href=""><i class='bx bx-link-external'></i></a>
+            </div>
+     </div>
+  
+</div>
+<div class="content-btn">
+    <a href="" class="btn">See more</a>
+ </div>
+</section>   
+<!---------------section-desing-contact----------------------------->
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="heading">Contact <span>Me</span></h2>
+                <p>epiletaalayo@gmail.com</p>
+                <p>51236256</p>
+                <div class="social-redes">
+                    <a href="https://wahatssap.com/wadeManuel"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://twitter.com/wadeManuel"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://github.com/wadeManuel"><i class='bx bxl-github'></i></a>
+                    <a href="https://linkedin.com/wadeManuel"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+            
+                    <a href="/CV Python.docx" download class="btn" >Dawnload CV</a>
+               
+               
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <div id="msg">Hello</div>
+                </form>
+                
+            </div>
+
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy,2023 by Esmanuel| All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+    <!---Codigo Java Scripit-->
+   <script src="codigo.js"></script>
+
+   <!--Js para Cambiar cuando le demos click las diferentes contendeores -->
+   <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-links');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+   </script>
+
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw2VmWM0NFeoas5046A627wjQqdX_NKeOtyNQ5SwIsZwNyUbHtDWK2GlCsMBSiN9WLcDA/exec'
+    const form = document.forms['submit-to-google-sheet']
+   
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    });
+  </script>
+</body>
+</html>
